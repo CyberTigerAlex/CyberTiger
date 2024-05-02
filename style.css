@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: rgb(44,44,44);
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+}
+.nav_list{
+    display: flex;
+    list-style: none;
+}
+.nav_item{
+    margin-right: 63px;
+    color: rgb(228, 228, 228);
+font-family: Nico Moji;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+}
+.nav_link:hover{
+    color: rgb(0, 193, 255);
+}
+.hero-block{
+    background-color: rgb(44,44,44);
+}
+.container_hero-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 66px 0 67px;
+}
+.hero-block_title{
+    color: rgb(0, 193, 255);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 36px;
+    margin-left: 48px;
+}
+.hero-block_content{
+    max-width: 180px;
+}
+.hero-block_link{
+    border-radius: 90px;
+    background: rgb(27, 165, 249);
+    padding: 14px 97px;
+    color: rgb(0, 211, 255);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 48px;
+}
+.hero-block_description{
+    margin-bottom: 36px;
+    margin-left: 48px;
+}
+.about{
+    background-color: rgb(62, 62, 62);
+}
+.container_about{
+    padding: 84px 0 158px;
+}
+.about_title{
+    color: rgb(0, 202, 255);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 87px;
+}
+.about_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gameplay_in{
+    background: rgb(0, 149, 255);
+    width: 28px;
+    height: 10px;
+}
+.gameplay_out{
+    background: rgb(196, 196, 196);
+    width: 219px;
+    height: 10px;
+}
+.graphik_out{
+    background: rgb(196, 196, 196);
+    width: 200px;
+    height: 10px;
+}
+.graphik_in{
+    background: rgb(0, 149, 255);
+    width: 148px;
+    height: 10px;
+}
+.community_out{
+    background: rgb(196, 196, 196);
+    width: 219px;
+    height: 10
+}
+.community_in{
+    background: rgb(0, 149, 255);
+    width: 190px;
+    height: 10px;
+}
+.video{
+    background: rgb(44,44,44);
+}
+.container_video{
+    padding: 61px 0 94px;
+}
+.video_title{
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 42px;
+}
+.video_player{
+    width: 100%;
+    height: 659px;
+    border: 50px solid rgb(62,62,62);
+    border-radius: 29px;
+    box-sizing: border-box;
+}
+.skill_title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 12px;
+}
+.about_skills{
+    color: rgb(0, 202, 255);
+font-family: Inter;
+font-size: 36px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 15px;
+}
+.skill_list{
+    list-style: none;
+}
+.gallery{
+    background: rgb(62, 62, 62);
+    padding: 70 17 70px;
+}
+.gallery_title{
+    color: rgb(228, 228, 228);
+font-family: Nico Moji;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 70px;
+}
+.gallery_list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 18px;
+    list-style: none;
+}
+.gallery_item{
+    height: 430px;
+    width: 520px;
+    margin-right: 22px;
+    margin-bottom: 10px;
+}
+.gallery_img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    background: rgb(44, 44, 44);
+}
+.container_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 0 64px;
+}
+.footer_title{
+    color: rgb(0, 202, 255);
+font-family: Inter;
+font-size: 36px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 10px;
+}
+.footer_text{
+    color: rgb(0, 202, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+.footer_list{
+    display: flex;
+    list-style: none;
+}
+.footer_item{
+    margin-right: 40px;
+}
